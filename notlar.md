@@ -2,7 +2,7 @@
 
 ## EKLER
 
-_Çekim ekleri_ kelimenin sonundan başlayarak başına doğru birer birer tespit edilerek temizlenecek. Türkçe'deki ek öncelikleri dikkate alınacak. Temizlenen her ekten sonra kökler sözlüğüne bakılacak, eğer kök bulunursa işlem sonlanacak. Böylece mümkün olan en uzun kök tespit edilecek, yanlışlıkla ek olmayan ancak eke benzeyen heceler silinmemiş olacak.
+_Çekim ekleri_ kelimenin sonundan başlayarak başına doğru birer birer tespit edilerek temizlenecek. Türkçe'deki ek öncelikleri dikkate alınacak. Temizlenen her ekten sonra kökler sözlüğüne bakılacak, eğer kök bulunursa işlem sonlanacak. Böylece mümkün olan en uzun kök tespit edilerek ek olmayan ancak eke benzeyen heceler yanlışlıkla silinmemiş olacak.
 
 _Yapım ekleri_ kelimenin anlamını değiştirdiği için bu projenin kapsamı dışında kalıyor. Bu projenin amacı özgün kelimeleri bularak metin benzerliğinde kullanmak.
 
@@ -62,4 +62,13 @@ Sert sessizle biten bir kelimeye, sesli harfle başlayan bir ek eklendiğinde se
 | barda**k** | barda**ğ**ı | barda[kgğ] |
 | ara**ç** | ara**c**a  | ara[çc] |
 | dola**p** | dola**b**ın | dola[pb] |
+
+### ÜNLÜ DÜŞMESİ
+
+Son hecesinde dar ünlü bulunan bir kelimeye ünlü ile başlayan bir ek eklendiğinde dar ünlü düşer. Bu durumu sağlamak için, eğer kökün son hecesinde dar ünlü bulunuyorsa, düzenli ifadeye opsiyonel olarak eklenecek. Kökler sözlüğündeki kelimeler de bu şekilde güncellenecek. Örneğin:
+
+| Kök | Düşme | Düzenli ifade |
+| --- | --- | --- |
+| bur**u**n | burnu | buru?n |
+| oğ**u**l | oğlum  | oğu?l |
 
