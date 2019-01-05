@@ -53,4 +53,13 @@ _(Önceliğe göre azalan sırayla)_
 - koş**ma**z**sınız**
 - gez**sin**ler
 
+### ÜNSÜZ YUMUŞAMASI
+
+Sert sessizle biten bir kelimeye, sesli harfle başlayan bir ek eklendiğinde sert sessiz yumuşar. Bu olasılığı sağlamak amacıyla, eğer bulunan kökün son harfi değişebilen bir sessizse, düzenli ifadeye alternatifi ile birlikte eklenecek. Kökler sözlüğündeki kelimeler de bu şekilde güncellenecek. Örneğin:
+
+| Kök | Yumuşama | Düzenli ifade |
+| --- | --- | --- |
+| barda**k** | barda**ğ**ı | barda[kgğ] |
+| ara**ç** | ara**c**a  | ara[çc] |
+| dola**p** | dola**b**ın | dola[pb] |
 
