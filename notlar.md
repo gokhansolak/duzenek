@@ -1,7 +1,13 @@
 # Notlar
 
- ### İSİM ÇEKİM EKLERİ
- _(Önceliğe göre sıralı)_
+## EKLER
+
+_Çekim ekleri_ kelimenin sonundan başlayarak başına doğru birer birer tespit edilerek temizlenecek. Türkçe'deki ek öncelikleri dikkate alınacak. Temizlenen her ekten sonra kökler sözlüğüne bakılacak, eğer kök bulunursa işlem sonlanacak. Böylece mümkün olan en uzun kök tespit edilecek, yanlışlıkla ek olmayan ancak eke benzeyen heceler silinmemiş olacak.
+
+_Yapım ekleri_ kelimenin anlamını değiştirdiği için bu projenin kapsamı dışında kalıyor. Bu projenin amacı özgün kelimeleri bularak metin benzerliğinde kullanmak.
+
+### İSİM ÇEKİM EKLERİ
+_(Önceliğe göre azalan sırayla)_
 
 | Tip | Örüntü|
 | --- | --- |
@@ -22,7 +28,7 @@
 - İnsan**lar**ca
 
 ### FİİL ÇEKİM EKLERİ
-_(Önceliğe göre sıralı)_
+_(Önceliğe göre azalan sırayla)_
 
 | Tip | Örüntü|
 | --- | --- |
@@ -46,4 +52,5 @@ _(Önceliğe göre sıralı)_
 - sev**m**iyor**sun**
 - koş**ma**z**sınız**
 - gez**sin**ler
+
 
