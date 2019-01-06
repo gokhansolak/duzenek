@@ -2,7 +2,6 @@
 import re
 import json
 
-ALFABE = ' \'-aâbcçdefgğhıîijklmnoöprsştuüvyz'
 YUMUSAT = {'ç': 'c', 't': 'd', 'p': 'b', 'k': 'ğ', 'g':'ğ'}
 SERTLES = {'c': 'ç', 'd': 't', 'b': 'p', 'g': 'k'}
 SESLILER = {'hepsi':'aeıioöuü',
@@ -52,8 +51,7 @@ if __name__ == "__main__":
     with open('data/KOKLER.txt') as kok_file:
         kokler = [line.strip() for line in kok_file]
         # sort for binary search
-        sort_sira = {i:ALFABE.index(i) for i in ALFABE}
-        kokler.sort(key=sort_sira.get)
+        kokler.sort()
 
     print(kokler)
 
