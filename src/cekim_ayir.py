@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 import re
+import sys
 import json
 import araclar as arc
 
@@ -69,25 +70,31 @@ def cekim_ayir(kelime):
 
 if __name__ == "__main__":
 
+    # usage safety check
+    if len(sys.argv) < 2:
+        print("Kullanım: python cekim_ayir.py girdi_dosyası")
+        sys.exit()
+
     global oruntu_veri
     global kokler_veri
 
-    # ekler örüntü verisi
+    # ekler örüntü verisini oku
     with open('data/patterns.json') as json_file:
         oruntu_veri = json.load(json_file)
-    # kökler listesi
+    # kökler verisini oku
     with open('data/KOKLER.txt') as kok_file:
         kokler_veri = [line.strip() for line in kok_file]
         # sort for binary search
         kokler_veri.sort()
+    # girdi dosyasını oku
+    with open(sys.argv[1]) as test_file:
+        girdi_list = []
+        for line in test_file:
+            girdi_list += [w for w in line.strip().split()]
 
-    cekim_ayir("Elmalarımızdakiyle")
-    cekim_ayir("Evleriyle")
-    cekim_ayir("Gözlerinin")
-    cekim_ayir("İnsanlarca")
-    cekim_ayir("almıştık")
-    cekim_ayir("yapmayacaktınız")
-    cekim_ayir("gelmeliydiler")
-    cekim_ayir("sevmiyorsun")
-    cekim_ayir("koşmazsınız")
-    cekim_ayir("gezsinler")
+    # her kelimeyi işleyerek çıktı metnine ekle
+    cikti_str = ""
+    for k in girdi_list:
+        cikti_str += cekim_ayir(k) + " "
+
+    print(cikti_str)
