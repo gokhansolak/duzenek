@@ -45,6 +45,11 @@ def cekim_ayir(kelime):
         return
 
     kelime_isle = arc.kucult_str(kelime)
+
+    # zaten kökse aynen döndür
+    if arc.ikili_ara(kokler_veri, kelime_isle) >= 0:
+        return kelime_isle
+
     kokler_bulunan = []
     # isim ve fiil cekim ekleri
     for ek_tipi in ["isim", "fiil"]:
@@ -55,7 +60,7 @@ def cekim_ayir(kelime):
         if mesru:
             return kok
         else:
-            kokler_bulunan += kok
+            kokler_bulunan.append(kok)
 
     # hiçbir ek tipiyle meşru kök bulunmadıysa en kısayı döndür
     kok_kisa = None
@@ -64,7 +69,7 @@ def cekim_ayir(kelime):
             kok_kisa = kok
         elif len(kok) < len(kok_kisa):
             kok_kisa = kok
-    return kok_kisa
+    return kok_kisa + '(!'+kelime+'!)'
 
 
 
