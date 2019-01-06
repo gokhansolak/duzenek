@@ -12,7 +12,8 @@ SESLILER = {'hepsi':'aeıioöuü',
 
 def cekim_ayir(kelime):
     # type safety
-    if(type(kelime) is not string) return;
+    if(type(kelime) is not str):
+        return
 
     # isim cekim
     # reverse iterate: sondan başa
@@ -22,14 +23,12 @@ def cekim_ayir(kelime):
 
         # kelime sonu yakala
         ptr_ek += "$"
-        # escape chars
-        ptr_ek = re.escape(ptr_ek)
 
         # eşleştir
         match = re.match(ptr_ek, kelime)
         if match:
             # bilgilendir
-
+            print(ek["tip"] + " eki bulundu: "+match.group(1))
             # ek temizle
 
             # eşleşen kök bak, varsa bitir
@@ -39,8 +38,8 @@ def cekim_ayir(kelime):
 
 
 if __name__ == "__main__":
-
+    global ptr
     with open('data/patterns.json') as json_file:
-        global ptr = json.load(json_file)
+        ptr = json.load(json_file)
 
     cekim_ayir("Elmalarımızdakiyle")
