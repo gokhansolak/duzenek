@@ -20,7 +20,6 @@ def cekim_ayir(kelime):
     # reverse iterate: sondan başa
     for ek in reversed(ptr["çekim"]["isim"]):
 
-        print(ek["tip"]+" eki inceleniyor.")
         ptr_ek = ek["örüntü"]
 
         # kelime sonu yakala
@@ -35,13 +34,25 @@ def cekim_ayir(kelime):
             kelime_isle = kelime_isle[:match.start()]
             # eşleşen kök bak, varsa bitir
 
+
         # yoksa devam et
 
 
 
 if __name__ == "__main__":
+
     global ptr
+    global kokler
+
+    # ekler örüntü verisi
     with open('data/patterns.json') as json_file:
         ptr = json.load(json_file)
+    # kökler listesi
+    with open('data/KOKLER.txt') as kok_file:
+        kokler = [line.split()[0] for line in kok_file]
+        # sort for binary search
+        kokler.sort()
+
+    print(kokler)
 
     cekim_ayir("Elmalarımızdakiyle")
