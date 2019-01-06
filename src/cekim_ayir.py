@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
 import re
 import json
+import araclar as arc
 
 YUMUSAT = {'ç': 'c', 't': 'd', 'p': 'b', 'k': 'ğ', 'g':'ğ'}
 SERTLES = {'c': 'ç', 'd': 't', 'b': 'p', 'g': 'k'}
@@ -53,6 +55,6 @@ if __name__ == "__main__":
         # sort for binary search
         kokler.sort()
 
-    print(kokler)
+    mid = arc.ikili_ara(kokler, "süpür")
 
     cekim_ayir("Elmalarımızdakiyle")

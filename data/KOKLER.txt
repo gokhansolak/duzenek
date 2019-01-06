@@ -734,7 +734,7 @@ ele
 elektrikle
 elen
 eleştir
-#elle
+elle
 elver
 emayla
 emdir
@@ -1341,7 +1341,7 @@ kokozlan
 kokuş
 kokut
 kolala
-#kolayla
+kolayla
 kolla
 kolonyala
 koltukla
@@ -1635,7 +1635,7 @@ ozonla
 övün
 öyküle
 öykün
-#özdeşle
+özdeşle
 öze
 özen
 özetle
@@ -1672,7 +1672,7 @@ pehpehle
 pekiş
 pekit
 peltelen
-#pençele
+pençele
 pepele
 perçinle
 perdahla
@@ -1765,7 +1765,7 @@ sahnelen
 sakallan
 sakatla
 sakın
-#sakinle
+sakinle
 sakla
 saklan
 salçala
@@ -1989,7 +1989,7 @@ süzül
 şartla
 şaşakal
 şaşala
-#şaşır
+şaşır
 şavkı
 şavulla
 şekerle
@@ -2357,8 +2357,8 @@ yayla
 yazıklan
 yazıla
 yazla
-#y
-#yiy
+y
+yiy
 ye
 yedekle
 yeğle
@@ -2455,7 +2455,7 @@ zehirle
 zehirlen
 zehret
 zehrol
-#zenginle
+zenginle
 zevklen
 zevzeklen
 zıbar
@@ -2617,7 +2617,7 @@ kaz
 kep
 kert
 kes
-#kesil
+kesil
 keşfol
 kıl
 kıp
@@ -2761,7 +2761,7 @@ defnet
 devret
 dit
 emret
-#ed
+ed
 et
 farket
 farzet
@@ -4465,7 +4465,7 @@ bendir
 bengi
 beniadem
 beniçinci
-#benmerkezci
+benmerkezci
 benzen
 benzer
 benzeşim
@@ -8858,7 +8858,7 @@ icraat
 iç
 içbükey
 içer
-#içeri
+içeri
 içgörü
 içgüdü
 içgüvey
@@ -10156,7 +10156,7 @@ kaybetme
 kaydıhayat
 kaydıihtiyat
 kaydiye
-#kaygan
+kaygan
 kaygana
 kaygı
 kaygın
@@ -21795,7 +21795,7 @@ koçak
 kokak
 kokart
 kokoreç
-#kolaylık
+kolaylık
 kolçak
 koledok
 kolik
@@ -22081,7 +22081,7 @@ mücellit
 mücerrep
 mücerret
 müçtehit
-#müdürlük
+müdürlük
 müeddep
 müfit
 müfret
@@ -24051,7 +24051,7 @@ kanunen
 kanuni
 kaotik
 kapalı
-#kapanık
+kapanık
 kapitone
 kapkara
 kaplı
