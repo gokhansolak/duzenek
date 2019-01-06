@@ -17,7 +17,7 @@ def cekim_ayir(kelime):
     if(type(kelime) is not str):
         return
 
-    kelime_isle = kelime
+    kelime_isle = arc.kucult_str(kelime)
     # isim cekim
     # reverse iterate: sondan başa
     for ek in reversed(ptr["çekim"]["isim"]):
@@ -35,9 +35,13 @@ def cekim_ayir(kelime):
             # ek temizle
             kelime_isle = kelime_isle[:match.start()]
             # eşleşen kök bak, varsa bitir
+            if arc.ikili_ara(kokler, kelime_isle) >= 0:
+                print("Kök bulundu: "+ kelime_isle)
+                return kelime_isle
 
-
-        # yoksa devam et
+    # bulunamadıysa en küçük parçayı döndür
+    print("Sözlükte olmayan kök: " + kelime_isle)
+    return kelime_isle
 
 
 
@@ -55,8 +59,7 @@ if __name__ == "__main__":
         # sort for binary search
         kokler.sort()
 
-    w = "ŞİŞ"
-    w = arc.kucult_str(w)
-    mid = arc.ikili_ara(kokler, w)
-
     cekim_ayir("Elmalarımızdakiyle")
+    cekim_ayir("Evleriyle")
+    cekim_ayir("Gözlerinin")
+    cekim_ayir("İnsanlarca")
