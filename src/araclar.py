@@ -18,3 +18,14 @@ def ikili_ara(wordlist, word):
         else:
             return mid
     return -1
+
+def kucult_str(str_in):
+    """
+    Türkçe karakterli string küçült
+    """
+    lower_map = {
+        ord('I'): 'ı',
+        ord('İ'): 'i',
+    }
+    str_out = str_in.translate(lower_map)
+    return str_out.lower()

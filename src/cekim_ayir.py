@@ -55,6 +55,8 @@ if __name__ == "__main__":
         # sort for binary search
         kokler.sort()
 
-    mid = arc.ikili_ara(kokler, "süpür")
+    w = "ŞİŞ"
+    w = arc.kucult_str(w)
+    mid = arc.ikili_ara(kokler, w)
 
     cekim_ayir("Elmalarımızdakiyle")
