@@ -31,11 +31,11 @@ def cekim_grup(kelime, grup):
             kelime = kelime[:match.start()]
             # eşleşen kök bak, varsa bitir
             if arc.ikili_ara(kokler_veri, kelime) >= 0:
-                print("Kök bulundu: "+ kelime)
+                print("\tKök bulundu: "+ kelime)
                 return kelime, True
 
     # bulunamadıysa en küçük parçayı döndür
-    print("Sözlükte olmayan kök: " + kelime)
+    print("\tSözlükte olmayan kök: " + kelime)
     return kelime, False
 
 def cekim_ayir(kelime):

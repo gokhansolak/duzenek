@@ -42,7 +42,7 @@ _(Önceliğe göre azalan sırayla)_
 | Şart kipi  | (s[ae]) |
 | Dilek kipi | ([ae]) |
 | Birleşik zaman  | (y?([dt][ıiuü]\|m[ıiuü]ş\|s[ae])) |
-| Şahıs ekleri | ([sy]?([ıiuü]?[mnk]?[ıiuü]?z?))?(l[ae]r) |
+| Şahıs ekleri | (([sy][ıiuü])?[mnk]?([ıiuü]z)?)?(l[ae]r)? |
 
 #### Örnekler
 
