@@ -1,10 +1,10 @@
-# Notlar
+# Yöntem
 
 ## EKLER
 
 _Çekim ekleri_ kelimenin sonundan başlayarak başına doğru birer birer tespit edilerek temizlenecek. Türkçe'deki ek öncelikleri dikkate alınacak. Temizlenen her ekten sonra kökler sözlüğüne bakılacak, eğer kök bulunursa işlem sonlanacak. Böylece mümkün olan en uzun kök tespit edilerek ek olmayan ancak eke benzeyen heceler yanlışlıkla silinmemiş olacak.
 
-_Yapım ekleri_ kelimenin anlamını değiştirdiği için bu projenin kapsamı dışında kalıyor. Bu projenin amacı özgün kelimeleri bularak metin benzerliğinde kullanmak.
+_Yapım ekleri_ bu projede ikincil öneme sahip. Projenin ana amacı özgün kelimeleri bularak metin benzerliğinde kullanmak.
 
 ### İSİM ÇEKİM EKLERİ
 _(Önceliğe göre azalan sırayla)_
