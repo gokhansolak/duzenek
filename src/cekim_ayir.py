@@ -15,22 +15,24 @@ def cekim_ayir(kelime):
     if(type(kelime) is not str):
         return
 
+    kelime_isle = kelime
     # isim cekim
     # reverse iterate: sondan başa
     for ek in reversed(ptr["çekim"]["isim"]):
 
+        print(ek["tip"]+" eki inceleniyor.")
         ptr_ek = ek["örüntü"]
 
         # kelime sonu yakala
         ptr_ek += "$"
 
         # eşleştir
-        match = re.match(ptr_ek, kelime)
+        match = re.search(ptr_ek, kelime_isle)
         if match:
             # bilgilendir
             print(ek["tip"] + " eki bulundu: "+match.group(1))
             # ek temizle
-
+            kelime_isle = kelime_isle[:match.start()]
             # eşleşen kök bak, varsa bitir
 
         # yoksa devam et
