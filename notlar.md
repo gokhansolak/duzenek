@@ -11,14 +11,14 @@ _(Önceliğe göre azalan sırayla)_
 
 | Tip | Örüntü|
 | --- | --- |
-| Çokluk Eki | (l[ae]r)? |
-| İyelik Ekleri | ([ıi][mn]?[ıi]?z?)? |
-| Tamlanan eki | ([ns]?[ıiuü])? |
-| Hal (Durum) Ekleri| ([yn]?([ıiuü]\|[ae]\|[dt][ae]n?))? |
-| Tamlayan (İlgi) Eki| (n?[ıiuü]n)? |
-| İlgi zamiri | (ki)? |
-| Vasıta Eki | (y?l[ae])? |
-| Eşitlik Eki | ([cç][ae])? |
+| Çokluk Eki | (l[ae]r) |
+| İyelik Ekleri | ([ıi][mn]?[ıi]?z?) |
+| Tamlanan eki | ([ns]?[ıiuü]) |
+| Hal (Durum) Ekleri| ([yn]?([ıiuü]\|[ae]\|[dt][ae]n?)) |
+| Tamlayan (İlgi) Eki| (n?[ıiuü]n) |
+| İlgi zamiri | (ki) |
+| Vasıta Eki | (y?l[ae]) |
+| Eşitlik Eki | ([cç][ae]) |
 
 #### Örnekler
 
@@ -32,17 +32,17 @@ _(Önceliğe göre azalan sırayla)_
 
 | Tip | Örüntü|
 | --- | --- |
-| Olumsuzluk eki  | (m[ae]?)? |
-| Geniş zaman  | ([aeıiuü]?r\|z)? |
-| Şimdiki zaman | ([ıiuü]yor)? |
-| Bilinen geçmiş zaman | ([dt][ıiuü])? |
-| Öğrenilen geçmiş zaman  | (m[ıiuü]ş)? |
-| Gelecek zaman | (y?[ae]c[ae][kğ])? |
-| Gereklilik kipi  | (m[ae]l[ıi])? |
-| Şart kipi  | (s[ae])? |
-| Dilek kipi | ([ae])? |
-| Bileşik zaman  | (y?([dt][ıiuü]\|m[ıiuü]ş\|s[ae]))? |
-| Şahıs ekleri | ([sy]?([ıiuü]?[mnk]?[ıiuü]?z?))?(l[ae]r)? |
+| Olumsuzluk eki  | (m[ae]?) |
+| Geniş zaman  | ([aeıiuü]?r\|z) |
+| Şimdiki zaman | ([ıiuü]yor) |
+| Bilinen geçmiş zaman | ([dt][ıiuü]) |
+| Öğrenilen geçmiş zaman  | (m[ıiuü]ş) |
+| Gelecek zaman | (y?[ae]c[ae][kğ]) |
+| Gereklilik kipi  | (m[ae]l[ıi]) |
+| Şart kipi  | (s[ae]) |
+| Dilek kipi | ([ae]) |
+| Birleşik zaman  | (y?([dt][ıiuü]\|m[ıiuü]ş\|s[ae])) |
+| Şahıs ekleri | ([sy]?([ıiuü]?[mnk]?[ıiuü]?z?))?(l[ae]r) |
 
 #### Örnekler
 
@@ -71,4 +71,3 @@ Son hecesinde dar ünlü bulunan bir kelimeye ünlü ile başlayan bir ek eklend
 | --- | --- | --- |
 | bur**u**n | burnu | buru?n |
 | oğ**u**l | oğlum  | oğu?l |
-
