@@ -29,17 +29,21 @@ def cekim_grup(kelime, grup):
             # bilgilendir
             print(ek["tip"] + " eki bulundu: "+match.group(0))
             parca_say=len(match.groups())
+
+            kelime_tmp = kelime
             # birden fazla grubu ters sırayla temizle
             for i in range(parca_say,0,-1):
                 # boş eşleşmeyi atla
                 if not match.group(i) or len(match.group(i)) == 0:
                     continue
                 # ek temizle
-                kelime = kelime[:match.start(i)]
+                kelime_tmp = kelime[:match.start(i)]
                 # eşleşen kök bak, varsa bitir
-                if arc.ikili_ara(kokler_veri, kelime) >= 0:
-                    print("\tKök bulundu: "+ kelime)
-                    return kelime, True
+                if arc.ikili_ara(kokler_veri, kelime_tmp) >= 0:
+                    print("\tKök bulundu: "+ kelime_tmp)
+                    return kelime_tmp, True
+            # hiçbiri kök değilse de kelimeyi güncelle
+            kelime = kelime_tmp
 
     # bulunamadıysa en küçük parçayı döndür
     print("\tSözlükte olmayan kök: " + kelime)
