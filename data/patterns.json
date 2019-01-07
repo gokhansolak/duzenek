@@ -21,7 +21,7 @@
       {"tip":"şart", "örüntü":"(s[ae])"},
       {"tip":"dilek", "örüntü":"([ae])"},
       {"tip":"birleşik", "örüntü":"(y)?([dt][ıiuü]|m[ıiuü]ş|s[ae])"},
-      {"tip":"şahıs", "örüntü":"(([sy][ıiuü])?[mnk]?([ıiuü]z)?)?(l[ae]r)?"}
+      {"tip":"şahıs", "örüntü":"((?:[rkğ]|([sy]))[ıiuü])?([mnk])?([ıiuü]z)?(l[ae]r)?"}
     ]
   }
 }
