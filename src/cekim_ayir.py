@@ -60,6 +60,9 @@ def cekim_ayir(kelime):
     if arc.ikili_ara(kokler_veri, kelime_isle) >= 0:
         return kelime_isle
 
+    # sadece zaten ayrıştırılması gerekenleri say
+    sayac["toplam"]+=1;
+
     kokler_bulunan = []
     # isim ve fiil cekim ekleri
     for ek_tipi in ["isim", "fiil"]:
@@ -68,6 +71,7 @@ def cekim_ayir(kelime):
         kok, mesru = cekim_grup(kelime_isle, ek_grubu)
         # meşruysa (sözlükte bulunduysa) bitir
         if mesru:
+            sayac["doğru"]+=1;
             return kok
         else:
             kokler_bulunan.append(kok)
@@ -92,6 +96,10 @@ if __name__ == "__main__":
 
     global oruntu_veri
     global kokler_veri
+    global sayac
+
+    # kök bulma basarısı doğru/toplam
+    sayac = {"doğru":0, "toplam":0}
 
     # ekler örüntü verisini oku
     with open('data/patterns.json') as json_file:
@@ -113,3 +121,4 @@ if __name__ == "__main__":
         cikti_str += cekim_ayir(k) + " "
 
     print(cikti_str)
+    print(str(sayac))
