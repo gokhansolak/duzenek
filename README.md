@@ -4,7 +4,7 @@ _Düzenli ifade kullanarak ek ayırma_
 
 Bu projenin amacı Türkçe kelimeleri eklerinden ayırarak kelime kökünü bulmak (stemming). [Yöntem](docs/yontem.md) olarak, eklerin ve köklerin düzenli ifadeler (regex) olarak tanımlanmasına dayanıyor.
 
-Henüz çok yeni olduğu için bir çok eksiği bulunuyor. Şimdilik sadece isim ve fiil çekim eklerini ayırt edebiliyor.
+Henüz çok yeni olduğu için birçok eksiği bulunuyor. Şimdilik sadece isim ve fiil çekim eklerini ayırt edebiliyor.
 
 ### Kullanım
 

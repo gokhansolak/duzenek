@@ -3,11 +3,11 @@
     "isim":[
       {"tip":"çokluk", "örüntü":"(l[ae]r)"},
       {"tip":"iyelik", "örüntü":"([ıi][mn]?[ıi]?z?)"},
-      {"tip":"tamlanan", "örüntü":"([ns]?[ıiuü])"},
-      {"tip":"hal", "örüntü":"([yn]?([ıiuü]|[ae]|[dt][ae]n?))"},
-      {"tip":"tamlayan", "örüntü":"(n?[ıiuü]n)"},
+      {"tip":"tamlanan", "örüntü":"([ns])?([ıiuü])"},
+      {"tip":"hal", "örüntü":"([yn])?([ıiuü]|[ae]|[dt][ae]n?)"},
+      {"tip":"tamlayan", "örüntü":"(n)?([ıiuü]n)"},
       {"tip":"ilgi-zamiri", "örüntü":"(ki)"},
-      {"tip":"vasıta", "örüntü":"(y?l[ae])"},
+      {"tip":"vasıta", "örüntü":"(y)?(l[ae])"},
       {"tip":"eşitlik", "örüntü":"([cç][ae])"}
     ],
     "fiil":[
@@ -16,11 +16,11 @@
       {"tip":"şimdiki", "örüntü":"([ıiuü]yor)"},
       {"tip":"bilinen", "örüntü":"([dt][ıiuü])"},
       {"tip":"öğrenilen", "örüntü":"(m[ıiuü]ş)"},
-      {"tip":"gelecek", "örüntü":"(y?[ae]c[ae][kğ])"},
+      {"tip":"gelecek", "örüntü":"(y)?([ae]c[ae][kğ])"},
       {"tip":"gereklilik", "örüntü":"(m[ae]l[ıi])"},
       {"tip":"şart", "örüntü":"(s[ae])"},
       {"tip":"dilek", "örüntü":"([ae])"},
-      {"tip":"birleşik", "örüntü":"(y?([dt][ıiuü]|m[ıiuü]ş|s[ae]))"},
+      {"tip":"birleşik", "örüntü":"(y)?([dt][ıiuü]|m[ıiuü]ş|s[ae])"},
       {"tip":"şahıs", "örüntü":"(([sy][ıiuü])?[mnk]?([ıiuü]z)?)?(l[ae]r)?"}
     ]
   }

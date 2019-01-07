@@ -87,7 +87,7 @@ if __name__ == "__main__":
     with open('data/patterns.json') as json_file:
         oruntu_veri = json.load(json_file)
     # kökler verisini oku
-    with open('data/KOKLER.txt') as kok_file:
+    with open('data/kokler.txt') as kok_file:
         kokler_veri = [line.strip() for line in kok_file]
         # sort for binary search
         kokler_veri.sort()

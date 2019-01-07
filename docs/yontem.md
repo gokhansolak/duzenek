@@ -13,11 +13,11 @@ _(Önceliğe göre azalan sırayla)_
 | --- | --- |
 | Çokluk Eki | (l[ae]r) |
 | İyelik Ekleri | ([ıi][mn]?[ıi]?z?) |
-| Tamlanan eki | ([ns]?[ıiuü]) |
-| Hal (Durum) Ekleri| ([yn]?([ıiuü]\|[ae]\|[dt][ae]n?)) |
-| Tamlayan (İlgi) Eki| (n?[ıiuü]n) |
+| Tamlanan eki | ([ns])?([ıiuü]) |
+| Hal (Durum) Ekleri| ([yn])?([ıiuü]\|[ae]\|[dt][ae]n?) |
+| Tamlayan (İlgi) Eki| (n)?([ıiuü]n) |
 | İlgi zamiri | (ki) |
-| Vasıta Eki | (y?l[ae]) |
+| Vasıta Eki | (y)?(l[ae]) |
 | Eşitlik Eki | ([cç][ae]) |
 
 #### Örnekler
@@ -37,11 +37,11 @@ _(Önceliğe göre azalan sırayla)_
 | Şimdiki zaman | ([ıiuü]yor) |
 | Bilinen geçmiş zaman | ([dt][ıiuü]) |
 | Öğrenilen geçmiş zaman  | (m[ıiuü]ş) |
-| Gelecek zaman | (y?[ae]c[ae][kğ]) |
+| Gelecek zaman | (y)?([ae]c[ae][kğ]) |
 | Gereklilik kipi  | (m[ae]l[ıi]) |
 | Şart kipi  | (s[ae]) |
 | Dilek kipi | ([ae]) |
-| Birleşik zaman  | (y?([dt][ıiuü]\|m[ıiuü]ş\|s[ae])) |
+| Birleşik zaman  | (y)?([dt][ıiuü]\|m[ıiuü]ş\|s[ae]) |
 | Şahıs ekleri | (([sy][ıiuü])?[mnk]?([ıiuü]z)?)?(l[ae]r)? |
 
 #### Örnekler
