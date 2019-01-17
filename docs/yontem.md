@@ -41,8 +41,7 @@ _(Önceliğe göre azalan sırayla)_
 | Gereklilik kipi  | (m[ae]l[ıi]) |
 | Şart kipi  | (s[ae]) |
 | Dilek kipi | ([ae]) |
-| Birleşik zaman  | (y)?([dt][ıiuü]\|m[ıiuü]ş\|s[ae]) |
-| Şahıs ekleri | ((?:[rkğ]|([sy]))[ıiuü])?([mnk])?([ıiuü]z)?(l[ae]r)? |
+| Şahıs ekleri | ((?:[rkğ]\|([sy]))[ıiuü])?([mnk])?([ıiuü]z)?(l[ae]r)? |
 
 #### Örnekler
 
@@ -52,6 +51,25 @@ _(Önceliğe göre azalan sırayla)_
 - sev**m**iyor**sun**
 - koş**ma**z**sınız**
 - gez**sin**ler
+
+### EK-FİİLLER
+
+Ek-fiiller hem isimlerin hem de fiillerin sonuna eklenebilir. Birden fazla ek-fiil alma durumu istisnai olduğu için _şimdilik_ ihmal edilecek. O yüzden,  bu ek grubunda (şahıs eki hariç) bir öncelik sırası yok.
+
+| Tip | Örüntü|
+| --- | --- |
+| Hikaye kipi  | (y)?([dt][ıiuü]) |
+| Rivayet kipi  | (y)?(m[ıiuü]ş) |
+| Şart kipi  | (y)?(s[ae]) |
+| Geniş zaman kipi  | (y)?([ıiuü]m\|s[ıiuü]n)?(d[ıiuü]r) |
+| Şahıs ekleri | ((?:[rkğ]\|([sy]))[ıiuü])?([mnk])?([ıiuü]z)?(l[ae]r)? |
+
+#### Örnekler
+
+üzgünsündür
+mutluydum
+
+
 
 ### ÜNSÜZ YUMUŞAMASI
 
