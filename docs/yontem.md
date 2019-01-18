@@ -61,7 +61,7 @@ Ek-fiiller hem isimlerin hem de fiillerin sonuna eklenebilir. Birden fazla ek-fi
 | Hikaye kipi  | (y)?([dt][ıiuü]) |
 | Rivayet kipi  | (y)?(m[ıiuü]ş) |
 | Şart kipi  | (y)?(s[ae]) |
-| Geniş zaman kipi  | (y)?([ıiuü]m\|s[ıiuü]n)?(d[ıiuü]r) |
+| Geniş zaman kipi  | ((y)?[ıiuü]m|s[ıiuü]n)?(d[ıiuü]r) |
 | Şahıs ekleri | ((?:[rkğ]\|([sy]))[ıiuü])?([mnk])?([ıiuü]z)?(l[ae]r)? |
 
 #### Örnekler
