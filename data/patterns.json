@@ -16,15 +16,14 @@
       {"tip":"şimdiki", "örüntü":"([ıiuü]yor)"},
       {"tip":"bilinen", "örüntü":"([dt][ıiuü])"},
       {"tip":"öğrenilen", "örüntü":"(m[ıiuü]ş)"},
-      {"tip":"gelecek", "örüntü":"(y)?([ae]c[ae][kğ])"},
       {"tip":"gereklilik", "örüntü":"(m[ae]l[ıi])"},
       {"tip":"şart", "örüntü":"(s[ae])"},
       {"tip":"dilek", "örüntü":"([ae])"},
-      {"tip":"şahıs", "örüntü":"(?:[rkğ]([ıiuü])|([sy][ıiuü]))?([mnk])?([ıiuü]z)?(l[ae]r)?"}
+      {"tip":"gelecek", "örüntü":"(y)?([ae]c[ae][kğ])"}
     ],
     "ek-fiil":[
       {"tip":"ek-fiil", "örüntü":"(y)?([dt][ıiuü]|m[ıiuü]ş|s[ae]|([ıiuü]m|s[ıiuü]n)?(d[ıiuü]r)?)"},
-      {"tip":"ek-şahıs", "örüntü":"(?:[rkğ]([ıiuü])|([sy][ıiuü]))?([mnk])?([ıiuü]z)?(l[ae]r)?"}
+      {"tip":"şahıs", "örüntü":"(?:[rkğ]([ıiuü])|([sy][ıiuü]))?([mnk])?([ıiuü]z)?(l[ae]r)?"}
     ]
   }
 }
