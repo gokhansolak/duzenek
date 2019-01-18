@@ -22,7 +22,7 @@
       {"tip":"gelecek", "örüntü":"(y)?([ae]c[ae][kğ])"}
     ],
     "ek-fiil":[
-      {"tip":"ek-fiil", "örüntü":"(y)?([dt][ıiuü]|m[ıiuü]ş|s[ae]|([ıiuü]m|s[ıiuü]n)?(d[ıiuü]r)?)"},
+      {"tip":"ek-fiil", "örüntü":"(y)?([dt][ıiuü]|m[ıiuü]ş|s[ae]|([ıiuü]m|s[ıiuü]n)?([dt][ıiuü]r)?)"},
       {"tip":"şahıs", "örüntü":"(?:[rkğ]([ıiuü])|([sy][ıiuü]))?([mnk])?([ıiuü]z)?(l[ae]r)?"}
     ]
   }
