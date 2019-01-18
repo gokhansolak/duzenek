@@ -20,7 +20,13 @@
       {"tip":"gereklilik", "örüntü":"(m[ae]l[ıi])"},
       {"tip":"şart", "örüntü":"(s[ae])"},
       {"tip":"dilek", "örüntü":"([ae])"},
-      {"tip":"birleşik", "örüntü":"(y)?([dt][ıiuü]|m[ıiuü]ş|s[ae])"},
+      {"tip":"şahıs", "örüntü":"(?:[rkğ]([ıiuü])|([sy][ıiuü]))?([mnk])?([ıiuü]z)?(l[ae]r)?"}
+    ],
+    "ek-fiil":[
+      {"tip":"hikaye", "örüntü":"(y)?([dt][ıiuü])"},
+      {"tip":"rivayet", "örüntü":"(y)?(m[ıiuü]ş)"},
+      {"tip":"şart", "örüntü":"(y)?(s[ae])"},
+      {"tip":"geniş", "örüntü":"(y)?([ıiuü(y)?(s[ae])]m|s[ıiuü]n)?(d[ıiuü]r)"},
       {"tip":"şahıs", "örüntü":"(?:[rkğ]([ıiuü])|([sy][ıiuü]))?([mnk])?([ıiuü]z)?(l[ae]r)?"}
     ]
   }
