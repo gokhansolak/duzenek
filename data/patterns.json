@@ -23,11 +23,11 @@
       {"tip":"şahıs", "örüntü":"(?:[rkğ]([ıiuü])|([sy][ıiuü]))?([mnk])?([ıiuü]z)?(l[ae]r)?"}
     ],
     "ek-fiil":[
-      {"tip":"hikaye", "örüntü":"(y)?([dt][ıiuü])"},
-      {"tip":"rivayet", "örüntü":"(y)?(m[ıiuü]ş)"},
-      {"tip":"şart", "örüntü":"(y)?(s[ae])"},
-      {"tip":"geniş", "örüntü":"(y)?([ıiuü(y)?(s[ae])]m|s[ıiuü]n)?(d[ıiuü]r)"},
-      {"tip":"şahıs", "örüntü":"(?:[rkğ]([ıiuü])|([sy][ıiuü]))?([mnk])?([ıiuü]z)?(l[ae]r)?"}
+      {"tip":"ek-bilinen", "örüntü":"(y)?([dt][ıiuü])"},
+      {"tip":"ek-öğrenilen", "örüntü":"(y)?(m[ıiuü]ş)"},
+      {"tip":"ek-şart", "örüntü":"(y)?(s[ae])"},
+      {"tip":"ek-geniş", "örüntü":"(y)?([ıiuü(y)?(s[ae])]m|s[ıiuü]n)?(d[ıiuü]r)"},
+      {"tip":"ek-şahıs", "örüntü":"(?:[rkğ]([ıiuü])|([sy][ıiuü]))?([mnk])?([ıiuü]z)?(l[ae]r)?"}
     ]
   }
 }

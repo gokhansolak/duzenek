@@ -67,7 +67,9 @@ def cekim_ayir(kelime):
     # isim ve fiil cekim ekleri
     for ek_tipi in ["isim", "fiil"]:
         # ek tipi için kök ara
-        ek_grubu = oruntu_veri["çekim"][ek_tipi]
+        ek_grubu = copy(oruntu_veri["çekim"][ek_tipi])
+        # ek-fiiller hem isimlerin hem de fiillerin sonuna eklenebilir
+        ek_grubu.update(oruntu_veri["çekim"]["ek-fiil"])
         kok, mesru = cekim_grup(kelime_isle, ek_grubu)
         # meşruysa (sözlükte bulunduysa) bitir
         if mesru:
