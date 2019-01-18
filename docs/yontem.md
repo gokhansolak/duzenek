@@ -66,9 +66,12 @@ Ek-fiiller hem isimlerin hem de fiillerin sonuna eklenebilir. Birden fazla ek-fi
 
 #### Örnekler
 
-üzgünsündür
-mutluydum
-
+ - üzgün**sündür**
+ - mutlu**ydum**
+ - evlerinde**ymişiz**
+ - geliyorlar**sa**
+ - duyacak**salar**
+ - kurulmuş**tur**
 
 
 ### ÜNSÜZ YUMUŞAMASI
