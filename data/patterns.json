@@ -23,10 +23,7 @@
       {"tip":"şahıs", "örüntü":"(?:[rkğ]([ıiuü])|([sy][ıiuü]))?([mnk])?([ıiuü]z)?(l[ae]r)?"}
     ],
     "ek-fiil":[
-      {"tip":"ek-bilinen", "örüntü":"(y)?([dt][ıiuü])"},
-      {"tip":"ek-öğrenilen", "örüntü":"(y)?(m[ıiuü]ş)"},
-      {"tip":"ek-şart", "örüntü":"(y)?(s[ae])"},
-      {"tip":"ek-geniş", "örüntü":"(y)?([ıiuü(y)?(s[ae])]m|s[ıiuü]n)?(d[ıiuü]r)"},
+      {"tip":"ek-fiil", "örüntü":"(y)?([dt][ıiuü]|m[ıiuü]ş|s[ae]|([ıiuü]m|s[ıiuü]n)?(d[ıiuü]r)?)"},
       {"tip":"ek-şahıs", "örüntü":"(?:[rkğ]([ıiuü])|([sy][ıiuü]))?([mnk])?([ıiuü]z)?(l[ae]r)?"}
     ]
   }
